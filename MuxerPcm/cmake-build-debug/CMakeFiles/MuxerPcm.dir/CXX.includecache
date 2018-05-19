@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/909845/CLionProjects/MuxerPcm/src/MuxerPcm/MuxerPcm.cpp
+assert.h
+-
+iostream
+-
+MuxerPcm.h
+C:/Users/909845/CLionProjects/MuxerPcm/src/MuxerPcm/MuxerPcm.h
+
+C:/Users/909845/CLionProjects/MuxerPcm/src/MuxerPcm/MuxerPcm.h
+cstdio
+-
+../Public/Type.h
+C:/Users/909845/CLionProjects/MuxerPcm/src/Public/Type.h
+
+C:/Users/909845/CLionProjects/MuxerPcm/src/Public/Type.h
+
+C:/Users/909845/CLionProjects/MuxerPcm/src/Startup/main.cpp
+iostream
+-
+../MuxerPcm/MuxerPcm.h
+C:/Users/909845/CLionProjects/MuxerPcm/src/MuxerPcm/MuxerPcm.h
+

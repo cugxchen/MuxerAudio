@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\MuxerPcm.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\MuxerPcm.dir/objects.a @CMakeFiles\MuxerPcm.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\MuxerPcm.dir/objects.a -Wl,--no-whole-archive  -o MuxerPcm.exe -Wl,--out-implib,libMuxerPcm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MuxerPcm.dir\linklibs.rsp
