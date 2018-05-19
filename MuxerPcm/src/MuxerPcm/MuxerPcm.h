@@ -39,6 +39,9 @@ private:
 
     /*
      * 自对齐权重法 (参考文献 <<多媒体会议中的快速实时自适应混音方案研究>> 樊星、顾伟康、叶秀清, 2005 软件学报)
+     *
+     * 公式：y = (sgn(a)*a^2 + sgn(b)*b^2 + sgn(c)*c^2 )/(abs(a) + abs(b) + ads(c))
+     * 其中 sgn(a)表示数字a的符号，abs(a)表示a的绝对值
      */
     Int32 ASW(Int16 nSrc1, Int16 nSrc2, Int16 nSrc3, Int16 nSrc4);
 

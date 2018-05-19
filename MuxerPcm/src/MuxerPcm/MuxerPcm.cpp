@@ -136,12 +136,12 @@ Int32 MuxerPcm::AAW(Int16 nSrc1, Int16 nSrc2, Int16 nSrc3, Int16 nSrc4)
 
 Int32 MuxerPcm::ASW(Int16 nSrc1, Int16 nSrc2, Int16 nSrc3, Int16 nSrc4)
 {
-    Int32 nSng1 = nSrc1 >= 0 ? 1 : -1;
-    Int32 nSng2 = nSrc2 >= 0 ? 1 : -1;
-    Int32 nSng3 = nSrc3 >= 0 ? 1 : -1;
-    Int32 nSng4 = nSrc4 >= 0 ? 1 : -1;
+    Int32 nSgn1 = nSrc1 >= 0 ? 1 : -1;
+    Int32 nSgn2 = nSrc2 >= 0 ? 1 : -1;
+    Int32 nSgn3 = nSrc3 >= 0 ? 1 : -1;
+    Int32 nSgn4 = nSrc4 >= 0 ? 1 : -1;
 
-    Int64 nMem = (Int64) nSng1 * nSrc1 * nSrc1 + nSng2 * nSrc2 * nSrc2 + nSng3 * nSrc3 * nSrc3 + nSng4 * nSrc4 * nSrc4;
+    Int64 nMem = (Int64) nSgn1 * nSrc1 * nSrc1 + nSgn2 * nSrc2 * nSrc2 + nSgn3 * nSrc3 * nSrc3 + nSgn4 * nSrc4 * nSrc4;
     Int32 nDen = abs(nSrc1) + abs(nSrc2) + abs(nSrc3) + abs(nSrc4);
 
     Int32 nResult = 0;
